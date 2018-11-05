@@ -1,0 +1,9 @@
+[Unit]
+Description=Apple IR Hue
+
+[Service]
+ExecStart=/bin/bash /home/jbo/Dev/apple_ir_hue/run.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
